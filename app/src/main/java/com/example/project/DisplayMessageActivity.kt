@@ -26,7 +26,7 @@ class DisplayMessageActivity: ComponentActivity() {
         var btn = findViewById<Button>(R.id.btn_show_author);
 
         btn.setOnClickListener({
-            val toastText = "Twórca: Eryk Kanownik, 83759";
+            val toastText = "YOUR MESSAGE";
             Toast.makeText(this,toastText,Toast.LENGTH_LONG).show();
         })
     }
